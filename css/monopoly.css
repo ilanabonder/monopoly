@@ -214,11 +214,21 @@ body{
     width: 25%;
     height: 25%;
     margin: 4%;
-    background-color: black;
+    background-color:#364c9c;
     border-radius: 100px;
     opacity:0;
 }
 
 .dice-dot.right{
     margin-left:36%;
+}
+
+.jailed{
+    background-image:url(../images/sad.png);
+    background-size: contain;
+}
+
+.game.cell.player1 #player1 .game.cell.player2 #player2 .game.cell.player3 #player3 .game.cell.player4 #player4{
+    background-image: url(../images/smile.png);
+    background-size: contain;
 }
